@@ -1,0 +1,20 @@
+function teste1(num) {
+    if (num > 7 ) 
+        console.log(num)
+        console.log('Final')
+}
+
+teste1(6)
+teste1(8)
+
+
+function teste2(num) {
+    if (num > 7 ); { // nao usar ';' em estruturas de controle - CUIDADOOO
+        console.log(num)
+        console.log('Final')
+    }         
+}
+
+teste2(6)
+
+teste2(8)
