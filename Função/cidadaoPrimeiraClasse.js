@@ -17,8 +17,7 @@ function run(fun){
     fun()
 }
 run(function () { console.log('Executando...')})
-
-
+teste
 // uma funcao pode retornar outra funcao 
 
 function soma (a,b) { 
