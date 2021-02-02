@@ -1,3 +1,4 @@
+// exemplo  extrapolado
 function area (altura, largura) {
     const area = altura * largura
     if (area >20) {
