@@ -1,14 +1,14 @@
 class Pessoa {
     constructor(nome) {
-        this.nome= nome // torna publico fora deste escopo
+        this.nome = nome
     }
 
     falar() {
-        console.log(`Meu Nome é ${this.nome}`)
+        console.log(`Meu nome é ${this.nome}`)
     }
 }
 
-const p1 = new Pessoa('João') // precisamos instanciar uma funcao para utilizar um atributo dela
+const p1 = new Pessoa('João')
 p1.falar()
 
 const criarPessoa = nome => {
@@ -17,5 +17,5 @@ const criarPessoa = nome => {
     }
 }
 
-const p2 = criarPessoa('José')
+const p2 = criarPessoa('João')
 p2.falar()

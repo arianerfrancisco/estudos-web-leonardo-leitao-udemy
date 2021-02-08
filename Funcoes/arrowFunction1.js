@@ -1,22 +1,18 @@
-// Arrow Function > forma reduzida
-// Function sem redução
-let dobro = function(a) {
+let dobro = function (a) {
     return 2 * a
 }
 
-// Arrow - função anônima, para chamá-la é necessário 
 dobro = (a) => {
-    return 2 * a
+    return 2 * a 
 }
 
-// pode-se tirar o parenteses quando há apenas 1 parametro, função de um unico trabalho> neste caso tem um retorno implicito
-dobro = a => 2 * a
-
-let ola = function() {
-    return 'Olá!'
-}
-
-ola = () => 'Olá!'
-
+dobro = a => 2 * a // return implícito
 console.log(dobro(Math.PI))
+
+let ola = function () {
+    return 'Olá'
+}
+
+ola = () => 'Olá'
+ola = _ => 'Olá' // possui um param
 console.log(ola())

@@ -1,10 +1,7 @@
-// funcao constrututora, ela ira retornar um objeto
-
-// FACTORY SIMPLES
-
+// Factory simples
 function criarPessoa() {
     return {
-        nome: 'Ana', 
+        nome: 'Ana',
         sobrenome: 'Silva'
     }
 }

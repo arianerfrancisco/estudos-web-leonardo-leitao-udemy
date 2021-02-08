@@ -2,7 +2,7 @@ function Pessoa() {
     this.idade = 0
 
     const self = this
-    setInterval(function() { // a cada 1000 milisegundos esta função será disparada
+    setInterval(function() {
         self.idade++
         console.log(self.idade)
     }/*.bind(this)*/, 1000)
