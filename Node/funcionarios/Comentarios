@@ -1,0 +1,38 @@
+Arquivo package.json: ele salva informações do seu projeto e também descreve todas as dependencias do projeto
+
+
+para criar um arquivo package.jason por comando. Acesso o diretorio correto com cd e escreva
+o comando npm init e responda as solicitações de acordo com o desejado.
+
+para criar este arquivo de modo automatico > comando npm init -y
+
+Caso queira instalar bibliotecas de terceiros nesta pasta é so utilizar o comando npm i...
+
+por exemplo, ao usar o comando npm i lodash > a pasta node_modules é criado neste diretorio
+
+Para vincular estas bibliotecas que estão sendo baixadas no arquivo package.json > utilizar o comando
+npm i --save (nome da bilioteca), automaticamente é atualizado o arquivo na area "dependencias"
+
+
+Para instalar uma versão especifica > npm i --save-dev axios@0.17.1 -E
+
+// caso nao queira que atualize > "0.21.1" > para atualizar o ultimo digito apenas "~0.21.1" 
+    // para atualizar apenas o digito do meio "^0.21.1" 
+
+no arquivo package.json o arquivo principal aponta por padrão para  "main": "index.js",
+mas podemos alterá-lo para funcionarios.js
+ 
+
+ na area de scripts podemos colocar dois comandos
+ primeiro >> "start": "nodemon",
+ "dev" : "nodemon"
+
+ Quando no terminal colocarmos npm(gerenciador do node para download bibliotecas) ele ira instalar todas as dependencias da aplicação automaticamente
+ se digitarmos npm start ele ira executar o arquivo principal, podendo rodar um script a partir do arquivo package.json
+
+ Para executar scripts fora do padrão (start e test), temos que colocar no terminal
+ npm run (nome do comando) >> neste exemplo npm run dev
+
+
+ se o comando nodemon nao funcionar, informando que o comando interno nao é executado. Certifique-se que esteja instalado no computador. 
+ colocar no terminal npm install -g nodemon
