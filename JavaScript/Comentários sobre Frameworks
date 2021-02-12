@@ -1,0 +1,11 @@
+Bibliotecas é um aglomerado de funcoes
+
+Frameworks estruturam as aplicações
+
+PADRÕES DE PROJETO: Ex> middleware
+
+
+Padrão middleware: refatora as funcoes, mas nao as torna dependentes. Os passos de execução não são acoplados, podendo inclusive mudar a sequência
+possui 3 parametros: requisicao, resposta e next
+
+refatorar: dividir uma função maior em partes, para que as mesmas possam ser utilizadas em outro momento.

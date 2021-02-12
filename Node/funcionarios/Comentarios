@@ -36,3 +36,5 @@ mas podemos alterá-lo para funcionarios.js
 
  se o comando nodemon nao funcionar, informando que o comando interno nao é executado. Certifique-se que esteja instalado no computador. 
  colocar no terminal npm install -g nodemon
+
+ 
