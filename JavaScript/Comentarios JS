@@ -1,0 +1,20 @@
+JAVA SCRIPT
+Operadores Ternários>>>>>   condition ? expr1 : expr2 
+Ex: 
+a = 10 > 2  ? 'Sim' : 'Não'
+console.log(a)
+Output: Sim
+
+Função Arrow 
+dobro = (a) => {
+    return 2 * a
+}
+dobro = a => 2 * a >> com 1 parametro e retorno implicito
+
+Template String
+`${ }`
+
+forEach()
+O método forEach() executará uma função para cada elemento presente em um array.
+
+new Object: função que cria objeto
