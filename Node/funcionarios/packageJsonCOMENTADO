@@ -1,0 +1,25 @@
+{
+  "name": "funcionarios",
+  "version": "1.0.0",
+  "description": "Estudos Node",
+  "main": "funcionarios.js", // ARQUIVO PRINCIPAL
+  "scripts": {
+    "start": "nodemon",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
+    colocando no terminal npm i : todas as dependencias serao instaladas, por isso que a
+    pasta node_modules nao precisa ser salva
+    Também colocamos essa pasta para ser ignorada pelo git
+    la em .gitignore especificar a pasta ::>> node_modules
+
+    Uma forma de executar o projeto é utilizar no terminal> npm start (start é um comando padrão do node, assim como o test) . Ao executar este scrit toda a lista de funcionarios
+    será exibida
+    Quando ao script dev (ou qualquer outro nome criado) por não fazer parte do comando padrão do node. No terminal para ser iniciado precisará
+    npm run dev > Tal recurso é uma opção quando precisa-se executar o programa num ambiente de desenv, por exemplo.

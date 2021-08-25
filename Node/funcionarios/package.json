@@ -2,7 +2,7 @@
   "name": "funcionarios",
   "version": "1.0.0",
   "description": "Estudos Node",
-  "main": "funcionarios.js",
+  "main": "funcionarios.js", 
   "scripts": {
     "start": "nodemon",
     "dev": "nodemon",

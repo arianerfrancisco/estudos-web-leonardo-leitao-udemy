@@ -2,7 +2,7 @@ const fs = require('fs') // fs> referencia ao file system, para leitura do arqui
 
 const caminho = __dirname + '/arquivo.json'
 
-// modo sincrono - lendo o arquivo COMPLETO  // metodo nao recomendado para arquivos grandes
+// modo sincrono - lendo o arquivo COMPLETO antes de qualquer execução  // metodo nao recomendado para arquivos grandes
 const conteudo = fs.readFileSync(caminho, 'utf-8')
 console.log(conteudo)
 
@@ -13,7 +13,7 @@ fs.readFile(caminho, 'utf-8', (err, conteudo) => { // o callback so ocorre depoi
     console.log(`${config.db.host}:${config.db.port}`)
 })
 
-// lendo arquivos JSON
+// lendo arquivos JSON ** RECOMENDADO
 
 const config = require('./arquivo.json') // ja traz o arquivo convertido em objeto, no entanto é necessario especificar o formato json, pois por padrão o programa ira procurar pelo formato js
 console.log(config.db)
