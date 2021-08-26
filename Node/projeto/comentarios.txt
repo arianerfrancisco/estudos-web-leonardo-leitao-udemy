@@ -1,0 +1,4 @@
+comando terminal 
+node init -y > o arquivo package.json é gerado
+node i --save express@4.16.2 ( O comando --save salva a referencia do express no arquivo package.json)
+As portas precisam ser declaradas toda vez que uma comunicação de rede precisa ser estabelecida.
