@@ -2,8 +2,10 @@ const porta = 3003 // toda aplicacao que se comunica na rede precisará realizar
 
 const express = require('express')
 const app = express()
+const bodyParser = require('body-parser')
 const bancoDeDados = require('./bancoDeDados')
-
+app.use(bodyParser.urlencoded({ extended: true })) // qualquer requisao que fizermos no servidor pelo express...
+// ele passará or aqui - vai transformar o corpo da requisicao em objeto 
 app.get('/produtos', (req, res, next) => {  // GET > Requisição à produtos
     res.send({nome:'Notebook', preco: 123.45}) // ira converter para JSON // resposta ao get - Função SEND - envia resposta
     res.send(bancoDeDados.getProdutos()) // ira converter para JSON // resposta ao get - Função SEND - envia resposta

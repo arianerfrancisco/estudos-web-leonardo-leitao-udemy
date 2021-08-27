@@ -8,3 +8,8 @@ node service.js > liberará a porta
 npm i --save nodemon > instalar o nodemon
 npm i --save-dev nodemon@1.15.11 -E > instalar o nodemon no ambiente de desenvolvimento com esta versao especfica
 POSTMAN> http://localhost:3003/produtos < executar este endereço > lembrando de colocar a porta que foi definida
+npm i --save body-parser@1.18.2 -E > bodyParser serve para trabalhar com os dados vindo do seu cliente
+Quando o cliente manda dados via form payload, esse pacote ele formata e transforma os dados
+para o formato de objeto javascript e joga tudo isso em um objeto dentro do objeto de
+requisição (req): req.
+executar> npm run start
