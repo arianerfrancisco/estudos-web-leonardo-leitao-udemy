@@ -23,3 +23,4 @@ para o formato de objeto javascript e joga tudo isso em um objeto dentro do obje
 requisição (req): req.
 executar> npm run start
 executar um arquivo especifico > acesse a pasta correta e depois node ;/nomedoarquivo.js
+ls > encontrar todas os arquivos dentro de uma pasta
