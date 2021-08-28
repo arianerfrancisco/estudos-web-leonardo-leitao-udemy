@@ -1,1 +1,10 @@
 Framwork WEB
+
+para iniciar o uso do Express
+acessar a pasta do projeto e utilizar os comandos ABAIXO
+
+npm init -y >> ira criar o arquivo package.json
+npm i --save express@4.16.2 -E >> baixar o pacote e com o save, especificá-lo no arquivo package.json //
+ @4.16.2 -E especificando a versão exata
+
+Após a baixa, uma pasta será criado ::: node_modules

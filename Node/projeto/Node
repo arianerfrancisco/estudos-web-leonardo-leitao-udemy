@@ -1,3 +1,12 @@
+comando no terminal: npm i lodash> baixará modulos do node. Como o conteudo é grande e de facil acesso. Foi citado
+em gitignore para nao ser enviado ao github
+
+npm i lodash >> instalar a biblioteca local
+npm i -g nodemon para instalar no windows, ficando assim disponivel no contexto global
+
+cd .. - retornar no diretorio no terminal
+CTRL C : finaliza comandos terminal
+
 comando terminal 
 node init -y ( cria o arquivo package.json )
 npm i --save express@4.16.2 ( O comando --save salva a referencia do express no arquivo package.json)

@@ -1,0 +1,4 @@
+https://www.postman.com/downloads/
+
+Definição: API para fazer requisicoes e o js dará uma resposta utilizando o json
+Quando for POST. Acessar campo Body e escolher a opção x-www-form-unlercoded
