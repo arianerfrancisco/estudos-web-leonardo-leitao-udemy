@@ -1,0 +1,17 @@
+Operador rest/spread == >
+function total (...numeros) >> (rest -- junta agrupa todos os parametros passados)
+const grupoFinal = ['Maria', ...grupoA, 'Rafaela'] >> ele traz os atributos de outro array por exemplo
+________________________________________________________________________________________________________
+Tagged templates - processa o template string dentro de uma função
+Funciona como mascara?
+__________________________________________________________________
+toFixed(2) << duas casas decimais. Ex: R$${valor.toFixed(2)
+__________________________________________________________________
+Condicional > valor = isNaN(valor) ? valor : `R$${valor.toFixed(2)}` > Se não for um valor número (isNaN(valor)) não faz nada, 
+mas se for > converte para notação de moeda
+________________________________________________________________________________________________________
+Set:  não aceita repetição/não indexada
+Array é uma estruturada indexada, que nos permite acessar seus elementos atraves dos indices
+Objetos também é uma estruturada, só que com textos. Pegamos um elemento através de um atributo
+_____________________________________________________________________________________________________
+Laço for of > impera em  valores
