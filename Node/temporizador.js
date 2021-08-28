@@ -8,9 +8,13 @@ const tarefa1 = schedule.scheduleJob('/5 * * * * *', function () {
 // Temporizador padrão do JS 
 
 setTimeout(function() {
-   // tarefa1.cancel()
+    tarefa1.cancel()
     console.log('Cancelando Tarefa 1')
 }, 20000)
+
+// Outro temporadorizadores padrões js
+// setImediate - Não recisa de definição de intervalo
+// setInterval - Executa em intervalos definidos 
 
 const regra = new schedule.RecurrenceRule() // executar regras recorrentes
 regra.dayOfWeek = [new schedule.Range(1,5)] // 1 -5 executará  de segunda a sexta

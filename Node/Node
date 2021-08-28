@@ -13,7 +13,7 @@ npm i --save express@4.16.2 ( O comando --save salva a referencia do express no 
 As portas precisam ser declaradas toda vez que uma comunicação de rede precisa ser estabelecida.
 npm i --save express@4.16.2  -E > garante que será instalada a versão especificadas
 A pasta src é a pasta do codigo fonte
-node service.js > liberará a porta
+node .\service.js > liberará a porta
 npm i --save nodemon > instalar o nodemon
 npm i --save-dev nodemon@1.15.11 -E > instalar o nodemon no ambiente de desenvolvimento com esta versao especfica
 POSTMAN> http://localhost:3003/produtos < executar este endereço > lembrando de colocar a porta que foi definida
@@ -22,3 +22,4 @@ Quando o cliente manda dados via form payload, esse pacote ele formata e transfo
 para o formato de objeto javascript e joga tudo isso em um objeto dentro do objeto de
 requisição (req): req.
 executar> npm run start
+executar um arquivo especifico > acesse a pasta correta e depois node ;/nomedoarquivo.js
