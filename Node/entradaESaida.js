@@ -18,3 +18,5 @@ if(anonimo) {
         process.exit()
     })
 }
+
+teste1tesasasasasa
