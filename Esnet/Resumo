@@ -1,0 +1,7 @@
+Operador rest/spread == >
+function total (...numeros) >> (rest -- junta agrupa todos os parametros passados)
+const grupoFinal = ['Maria', ...grupoA, 'Rafaela'] >> ele traz os atributos de outro array por exemplo
+________________________________________________________________________________________________________
+Tagged templates - processa o template string dentro de uma função
+Funciona como mascara?
+__________________________________________________________________
