@@ -16,4 +16,6 @@ Objetos também é uma estruturada, só que com textos. Pegamos um elemento atra
 _____________________________________________________________________________________________________
 Laço for of > impera em  valores
 _______________________________________________________________________________________________________
-promisse > indica sucesso ou fracasso para acesso de algum arquivo, por exemplo
+promise > indica sucesso ou fracasso para acesso de algum arquivo, por exemplo
+________________________________________________________________________________________________________
+ler arquivo const fs = require ('fs')
