@@ -15,3 +15,5 @@ Array é uma estruturada indexada, que nos permite acessar seus elementos atrave
 Objetos também é uma estruturada, só que com textos. Pegamos um elemento através de um atributo
 _____________________________________________________________________________________________________
 Laço for of > impera em  valores
+_______________________________________________________________________________________________________
+promisse > indica sucesso ou fracasso para acesso de algum arquivo, por exemplo

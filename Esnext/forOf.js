@@ -49,7 +49,7 @@ for (let valor of assuntosMap.values()) { // imprime só os valores
     console.log(valor)
 }
 
-for (let [ch, vl] of assuntosMap.entries()) {
+for (let [ch, vl] of assuntosMap.entries()) { // separa o objeto
     console.log(ch, vl)
 }
 
