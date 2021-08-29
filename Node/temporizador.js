@@ -10,7 +10,7 @@ const tarefa1 = schedule.scheduleJob('/5 * * * * *', function () {
 setTimeout(function() {
     tarefa1.cancel()
     console.log('Cancelando Tarefa 1')
-}, 20000)
+}, 200)
 
 // Outro temporadorizadores padrões js
 // setImediate - Não recisa de definição de intervalo

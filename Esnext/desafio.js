@@ -16,4 +16,6 @@ function lerArquivo(caminho){
 const caminho = path.join(__dirname, 'dados.txt')
 
 lerArquivo(caminho)
-    .then(conteudo=> console.log(conteudo))
+    .then(conteudo=> conteudo.split('\n'))
+    .then(linhas=> console.log(linhas[1]))
+    
