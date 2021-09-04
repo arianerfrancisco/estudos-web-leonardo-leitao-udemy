@@ -1,7 +1,7 @@
 <h1>Projeto</h1>
-<ul class="tree">
-    <li>
-        <span wm-folder>backend</span>
+<ul class="tree"> 
+    <>
+        <span wm-folder>backend</span> <!--span - usado para agrupar elementos inline, onde wm-folder> propriedade personalizada-- >
         <ul>
             <li>
                 <span wm-folder>app</span>
@@ -20,8 +20,6 @@
                 </ul>
             </li>
         </ul>
-    </li>
-    <li>
         <span wm-folder>frontend</span>
         <ul>
             <li>
@@ -38,11 +36,11 @@
 
 <link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css">
 <script>
-    document.querySelectorAll('[wm-folder]').forEach(folder => {
-        folder.onclick = function(e) {
-            const ul = folder.nextElementSibling
+    document.querySelectorAll('[wm-folder]').forEach(folder => { // esta função irá expandir ou recolher os itens do tópico. Funciona a partir das config feita com JS
+        folder.onclick = function(e) { // forEach executá a função em cada um dos elementos
+            const ul = folder.nextElementSibling // vai pegar o proximo elemento depois de span
             const d = ul.style.display
-            ul.style.display = d === 'none' ? 'block' : 'none'
+            ul.style.display = d === 'none' ? 'block' : 'none' // tornar visivel ou não
         }
     })
 </script>

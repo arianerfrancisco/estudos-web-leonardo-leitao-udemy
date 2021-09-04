@@ -1,0 +1,21 @@
+Instalando pacote http-server
+no terminal > npm i -g http-server ( g- instala global)
+Para executar no terminal> digite http-server .
+Caso seja bloqueado pelo SO. Acesse o Powershell do windows como adm e execute esse comando: Set-ExecutionPolicy Unrestricted
+Por padrão irá executar na porta 8080, caso queira mudar > digite o comando http-server -p (defina a porta ) .
+Após inicializar no vscode com http-server ., para acessar a págia via browser. Coloque na url: http://localhost:8080/ ou a porta que foi personalizada
+Para que não armazene cache> http-server -c-1 (não irá armazenar conteúdo) Dessa forma não precisa ficar dando refresh na página para visualizar as novas atualizações
+>http-server -c10 (aqui guardará o cache por apenas 10')
+
+________________________________________________________________________________________________________________________________
+ATALHOS
+ao digitar div#noticia > será criado uma div com ID: notícia
+<div id="noticia" 
+</div>
+TAG DIV>>> Ele pode ser utilizado para agrupar elementos para fins de estilos. utilizado somente quando não tiver outro elemento de semânticaSO.
+É utilizado para demarcar um bloco maior de código
+_______
+ao digitar span.teste > será criado uma span com classe: teste
+<span class="teste" 
+</span>
+É utilizado para demarcar trechos mais pontuais do código

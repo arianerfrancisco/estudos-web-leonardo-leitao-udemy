@@ -7,7 +7,7 @@
     <title>Exercícios HTML</title>
     <style>
         #conteudo {
-            padding: 30px 0px;
+            padding: 30px 0px; 
         }
     </style>
 </head>
@@ -32,15 +32,18 @@
     <footer>
         Curso de Web Moderno
     </footer>
-    <script>
-        document.querySelectorAll('[wm-nav]').forEach(link => {
-            const conteudo = document.getElementById('conteudo')
+    <script>// na tag script inserimos o conteúdo JS
+        document.querySelectorAll('[wm-nav]').forEach(link => {   //  selecionando a propriedade personalizada ('[wm-nav]') // forEach laço que acessa todos os links da página
+            const conteudo = document.getElementById('conteudo') // todos os links clicados abrirão em section que foi identificado com o id conteudo
+                                                                //como já estamos acessando a ID com getElementById, caso fosse getElementBy precisaria colocar ('#3conteudo')
             
-            link.onclick = function(e) {
-                e.preventDefault()
-                fetch(link.getAttribute('wm-nav'))
+            link.onclick = function(e) { // interceptando o clique do usuário, a função então será chamada
+                e.preventDefault() // não acessa outra página quando clicar no link
+                fetch(link.getAttribute('wm-nav')) //get> acessando a propriedade personalizada wm-nav, fetch baseado em promisse
                     .then(resp => resp.text())
-                    .then(html => conteudo.innerHTML = html)
+                    .then(html => conteudo.innerHTML = html) // vai substituir o conteudo da section() local que possue o id: conteudo e que foi definido para receber o acesso dos links)
+                    // caso os arquivos contidos nesses links tenham algum conteudo de js> não será executado pois foi chamado como html apenas. Funcionará se colocarmos 
+                    // deste arquivo que contenha o js
             }
         })
     </script>

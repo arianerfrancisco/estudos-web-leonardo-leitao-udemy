@@ -1,20 +1,20 @@
-<h1>Links</h1>
+<h1>Links</h1> <!-- CONCEITOS DE ANCORA -->
 
 <!-- URL Absoluta -->
 <a id="inicio" href="https://www.google.com.br">Google 1</a><br>
-<a href="https://www.google.com.br" target="_blank">Google 2</a><br><br>
+<a href="https://www.google.com.br" target="_blank">Google 2</a><br><br> <!-- target="_blank"> Abre o link em outra janela -->
 
 <!-- URL Relativa -->
 <a href="index.html">Voltar 1</a><br>
-<a href="/index.html">Voltar 2</a><br>
-<a href="../index.html">Voltar 3</a><br><br>
+<a href="/index.html">Voltar 2</a><br><!-- melhor opçã, volta pra raiz da aplicação -->
+<a href="../index.html">Voltar 3</a><br><br> <!-- ../ sai da pasta -->
 
-<a href="mailto:email@empresa.com.br">Entre em contato</a><br><br>
+<a href="mailto:email@empresa.com.br">Entre em contato</a><br><br> <!-- mailto: > para e-mail -->
 
-<div id="noticia" style="position:absolute;top:2000px;">
+<div id="noticia" style="position:absolute;top:2000px;"> <!-- aplicar estilo diratemente numa tag não é uma boa prática-->
     <h1>Notícia Buemba!</h1>
     <p>Não era nada... :)</p>
-    <a href="#inicio">Voltar Inicio</a>
+    <a href="#inicio">Voltar Inicio</a> <!-- Esse link irá navegar até o id notícia >>>  <a id="inicio" href="https://www.google.com.br">Google 1</a><br>-->
 </div>
 
-<a href="#noticia">Ir para Notícia</a>
+<a href="#noticia">Ir para Notícia</a> <!-- como o id noticia foi posicionado bem abaixo na página. Esse link irá navegar até lá-->
