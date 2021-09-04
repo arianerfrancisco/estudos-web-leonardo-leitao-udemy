@@ -1,16 +1,17 @@
 <table>
     <caption>Produtos</caption>
-    <thead>
+    <thead> <!-- Area de separação  - thead > significado semantico-->
         <tr>
-            <th>Produto</th>
+            <th>Produto</th> <!-- th>> cabeçalho-->
             <th>Preço</th>
             <th>Quantidade</th>
             <th>Total</th>
         </tr>
     </thead>
+    <!-- tbody> corpo da tabela - significado semantico -->
     <tbody>
-        <tr>
-            <td>iPad</td>
+        <tr> <!-- tr> linhas-->
+            <td>iPad</td> <!-- td>> linhas -->
             <td>3289,00</td>
             <td>5</td>
             <td>16445,00</td>
@@ -22,9 +23,9 @@
            <td>21192,00</td>
         </tr>
     </tbody>
-    <tfoot>
+    <tfoot>  <!-- tfoot>> rodapé da tabela -->
         <tr>
-            <td colspan="3">Total</td>
+            <td colspan="3">Total</td> <!-- <td colspan="3"> ( essa propriedade mescla as colunas, logo total ocupará tres colunas) para ocupar mais linhas comando rowspan-->
             <td>37637,00</td>
         </tr>
     </tfoot>
@@ -32,18 +33,18 @@
 
 <style>
     table {
-        border-collapse: collapse;
+        border-collapse: collapse; /* não vai ter borda em todas as tabelas*/
     }
 
     th, td {
-        padding: 10px;
+        padding: 10px; /* espaçamento*/
     }
 
     thead tr {
-       border-bottom: solid 3px #444; 
+       border-bottom: solid 3px #444; /* editando a linha do cabeçalho*/
     }
 
-    tbody tr:hover {
+    tbody tr:hover { /* tr:hover >> quando o usuário passar pela tabela, como colocou tdboy> restringiu o efeito apenas para o corpo da tabela*/
         background-color: #dedede;
     }
 
