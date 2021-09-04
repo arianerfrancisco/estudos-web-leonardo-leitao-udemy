@@ -22,5 +22,5 @@ Quando o cliente manda dados via form payload, esse pacote ele formata e transfo
 para o formato de objeto javascript e joga tudo isso em um objeto dentro do objeto de
 requisição (req): req.
 executar> npm run start
-executar um arquivo especifico > acesse a pasta correta e depois node ;/nomedoarquivo.js
+executar um arquivo especifico > acesse a pasta correta e depois node ./nomedoarquivo.js
 ls > encontrar todas os arquivos dentro de uma pasta
