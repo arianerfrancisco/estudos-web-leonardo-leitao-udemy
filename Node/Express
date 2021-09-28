@@ -8,3 +8,10 @@ npm i --save express@4.16.2 -E >> baixar o pacote e com o save, especificá-lo n
  @4.16.2 -E especificando a versão exata
 
 Após a baixa, uma pasta será criado ::: node_modules
+
+_______________ http-server
+para executar é necessário executar dentro da pasta html o comando http-server .
+se der erro  é preciso editar as variaveis ambiente
+Adicionado ‘PATH’ na variável de ambiente para variável do sistema. O caminho será assim C:\Users\username\AppData\Roaming\npm 
+e o C:\Users\Ariane\AppData\Roaming\npm\node_modules\http-server
+reiniciar o computador 

@@ -1,7 +1,10 @@
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
+// para executar colocar no cmd C:\Users\Ariane\Desktop\Meus Projetos\Estudos-LeonardoLeitao-WEB\html\exercicios\form>node server.js
+//  lembrando que o outro precisa estar funcionando PS C:\Users\Ariane\Desktop\Meus Projetos\Estudos-LeonardoLeitao-WEB\html> http-server .
 
+// app.use(bodyParser.urlencoded({ extended: true })) remove esse e teste o de baixo
 app.use(bodyParser.urlencoded({ extended: true }))
 
 app.post('/usuarios', (req, resp) => {

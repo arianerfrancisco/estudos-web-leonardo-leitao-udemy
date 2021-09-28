@@ -1,7 +1,7 @@
 <h1>Formulário</h1>
 
-<form method="POST">
-    <input type="hidden" name="id" value="3">
+<form method="POST"><!--se usassemos GEt a senha do usuario ficaria expsota na url -->>
+    <input type="hidden" name="id" value="3"> <!-- -->>
     <input type="text" name="name">
     <input type="password" name="senha">
     <textarea name="bio" cols="30" rows="10"></textarea>
@@ -38,8 +38,8 @@
     input,
     textarea,
     select {
-        display: block;
-        margin-bottom: 10px;
+        display: block; /* alinha os blocos um em cada linha */
+        margin-bottom: 10px; /* espaçamento entre os campos */
     }
 
     input[type=radio],

@@ -3,6 +3,7 @@ no terminal > npm i -g http-server ( g- instala global)
 Para executar no terminal> digite http-server .
 Caso seja bloqueado pelo SO. Acesse o Powershell do windows como adm e execute esse comando: Set-ExecutionPolicy Unrestricted
 Por padrão irá executar na porta 8080, caso queira mudar > digite o comando http-server -p (defina a porta ) .
+executei nesse diretorio PS C:\Users\Ariane\Desktop\Meus Projetos\Estudos-LeonardoLeitao-WEB\html> http-server .
 Após inicializar no vscode com http-server ., para acessar a págia via browser. Coloque na url: http://localhost:8080/ ou a porta que foi personalizada
 Para que não armazene cache> http-server -c-1 (não irá armazenar conteúdo) Dessa forma não precisa ficar dando refresh na página para visualizar as novas atualizações
 >http-server -c10 (aqui guardará o cache por apenas 10')
@@ -19,3 +20,13 @@ ao digitar span.teste > será criado uma span com classe: teste
 <span class="teste" 
 </span>
 É utilizado para demarcar trechos mais pontuais do código
+_____
+para fazer o formulario funcionar
+C:\Users\adm\Desktop\Meus Projetos\Estudos-LeonardoLeitao-WEB\html>http-server .
+C:\Users\adm\Desktop\Meus Projetos\Estudos-LeonardoLeitao-WEB\html\exercicios\form>node server.js
+____
+
+para estudar pelo postman> C:\Users\adm\Desktop\Meus Projetos\Estudos-LeonardoLeitao-WEB\Node\projeto\src>node servidor.js 
+
+_____
+Limpe o cache/reinice o navegador quando algo não funcionar como o esperado
