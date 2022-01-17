@@ -1,0 +1,1 @@
+Quando se coloca position absolute as propriedades que forem colocadas: right, top, por exemplo serão referente ao elemento pai mais próximo que tenha a position relativa. Caso nenhum tenha sido definido assim, fica relativo ao body.
